@@ -1,0 +1,24 @@
+(Triple quotes indicate emphasis, and XML tags serve as delimiters.)
+You will receive a summary of the protein receptor as well as the spatial coordinate information of the ligand-protein pocket in PDB file format. Based on the received protein receptor information and your knowledge base, please search for approved drugs on the market that may interact with this receptor and provide an explanation.
+"""Please follow the steps below""":
+1.Provide a detailed analysis of the receptor's summary information, including its PDB ID, title, classification, and organism information.
+2.Please provide more details and explanations regarding the spatial structure of the pocket-ligand interaction.
+3.Based on your analysis, please list 5 approved drugs on the market that may interact with this receptor and provide the output in the following JSON format.
+<Output format>
+{"drugs": [
+    {
+      "ranking": "<Ranking>",
+      "name": "<Drug Name>",
+      "explanation": "<Reason Explanation>"
+    },
+    ... other drugs
+  ]
+}
+</Output format>
+<Receptor information>
+Summary:
+__fill sum info__
+Sequence:
+__fill seq info__
+interaction information:
+__fill pdb info__

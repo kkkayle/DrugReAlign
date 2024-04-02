@@ -1,0 +1,5 @@
+PDB ID: 1A5H
+Title: CATALYTIC DOMAIN OF HUMAN TWO-CHAIN TISSUE PLASMINOGEN ACTIVATOR COMPLEX OF A BIS-BENZAMIDINE
+Classification: Classification: HYDROLASE
+Organism(s): Organism(s): Homo sapiens
+Expression System: Expression System: Escherichia coli
