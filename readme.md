@@ -26,7 +26,7 @@ Before you begin, ensure your system meets the following requirements:
 
 ## Download
 
-Experimental data is available for download from the provided link.
+Experimental data is available for download from the provided link. Navigate to the [Experimental Data](https://github.com/kkkayle/DrugReAlign/tree/master/Experimental%20data) directory.
 
 ## Data Structure and Interpretation
 
