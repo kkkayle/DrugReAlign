@@ -31,7 +31,7 @@ Experimental data is available for download from the provided link.
 ## Data Structure and Interpretation
 
 The experimental data is organized as follows:
-
+```
 📂 Experimental data
   ┣ 📂 LLMs_Answers (Subject experimental data in the paper)
   ┣ 📂 Docking_results (Molecular docking conducted in the main experiment and the spatial information removal experiment)
@@ -43,4 +43,4 @@ The experimental data is organized as follows:
       ┣ 📂 TransformerCPI2.0 (Model's prediction results)
       ┣ 📂 Drugban (Model's prediction results)
       ┗ 📂 DL_docking_results (Docking results of the models mentioned above)
- 
+```
