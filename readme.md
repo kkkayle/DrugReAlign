@@ -36,11 +36,11 @@ The experimental data is organized as follows:
   ┣ 📂 LLMs_Answers (Subject experimental data in the paper)
   ┣ 📂 Docking_results (Molecular docking conducted in the main experiment and the spatial information removal experiment)
   ┣ 📂 Ablation (Results from LLMs with spatial information removed and predictions from traditional deep learning models)
-      ┣ 📂 newbing
-      ┣ 📂 gpt4
-      ┣ 📂 gpt3
-      ┣ 📂 DL_Answers
-          ┣ 📂 TransformerCPI2.0 (Model's prediction results)
-          ┣ 📂 Drugban (Model's prediction results)
-          ┗ 📂 DL_docking_results (Docking results of the models mentioned above)
-
+    ┣ 📂 newbing
+    ┣ 📂 gpt4
+    ┣ 📂 gpt3
+    ┣ 📂 DL_Answers
+      ┣ 📂 TransformerCPI2.0 (Model's prediction results)
+      ┣ 📂 Drugban (Model's prediction results)
+      ┗ 📂 DL_docking_results (Docking results of the models mentioned above)
+ 
