@@ -1,5 +1,9 @@
 # DrugReAlign
-![DrugReAlign](https://github.com/kkkayle/DrugReAlign/blob/master/DrugReAlign.png)
+<p align="center">
+  <img src="https://github.com/kkkayle/DrugReAlign/blob/master/DrugReAlign.png" width="400">
+</p>
+
+
 
 This guide outlines the process for utilizing your own data in drug repositioning projects. Follow the steps below to set up your environment and run analyses with custom datasets.
 
