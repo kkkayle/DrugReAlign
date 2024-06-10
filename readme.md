@@ -39,7 +39,7 @@ Before you begin, ensure your system meets the following requirements:
 ## Demonstration Video
 
 For a detailed walkthrough, please refer to the demonstration video:
-[![DrugReAlign-Usage Example](DrugReAlign-Usage_Example.mp4)](DrugReAlign-Usage_Example.mp4)
+[![DrugReAlign-Usage Example]](DrugReAlign-Usage_Example.mp4)
 
 # Experimental Data and Interpretation
 
