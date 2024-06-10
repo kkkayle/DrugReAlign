@@ -36,11 +36,12 @@ class PDBSummaryExtractor:
                     for key, value in result.items():
                         file.write(f'{key}: {value}\n')
 
-                print(f'Summary saved for {pdb_id}:', result)
+                #print(f'Summary saved for {pdb_id}:', result)
             else:
                 print(f'Failed to fetch data for {pdb_id}. HTTP status code: {response.status_code}')
         else:
-            print(f'Summary already exists for {pdb_id}.')
+            pass
+            #print(f'Summary already exists for {pdb_id}.')
 
 # Example of how to use the class for a single PDB file
 if __name__ == '__main__':

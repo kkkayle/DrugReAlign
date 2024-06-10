@@ -4,24 +4,38 @@
 This guide outlines the process for utilizing your own data in drug repositioning projects. Follow the steps below to set up your environment and run analyses with custom datasets.
 
 ## System Requirements
+Note:If you need to automate molecular docking, you need to use a Linux system (or manually configure the Vina path on other systems)
 
 Before you begin, ensure your system meets the following requirements:
-- **Python Version:** 3.7.16
+- **Python Version:** 3.10.13
 - **Required Libraries:**
-  - numpy==1.21.5
-  - pandas==1.3.5
+  - numpy==1.26.4
+  - pandas==2.2.2
   - plip==2.3.0
-  - beautifulsoup4==4.9.3
-  - requests==2.31.0
-  - openai==1.12.0
+  - beautifulsoup4==4.12.3
+  - requests==2.32.2
+  - openai==1.30.2
+  - rdkit==2023.9.6
+  - pubchempy==1.0.4
+  - vina==1.2.5(Linux)
+  - biopython==1.83
+  - rich==13.7.1
+  - openbabel==3.1.1
+  - pymol-open-source==3.0.0
 
+- **MGLTOOLS:** no specific version requirements.
 ## Setup Instructions
 
 1. Ensure that the required libraries are installed in your Python environment.
-2. Download the necessary PDB (Protein Data Bank) file, ensuring it includes a sample small molecule ligand binding, and the corresponding FASTA file.
-3. Locate and modify the relevant file paths in the `DrugReAlign.ipynb` file according to your dataset.
-4. Execute the notebook to run the analysis.
-5. Results will be saved in the `./answer/` directory for further review.
+2. Please fill in the api_key and change the model (if necessary) in DrugReAlign.py.
+3. Please fill in the MGLTOOLS path in config/PDBConverter.py.
+4. Run DrugReAlign.py to perform the analysis.
+5. The results will be saved in the result directory for further review.
+
+## Demonstration Video
+
+For a detailed walkthrough, please refer to the demonstration video:
+[![DrugReAlign-Usage Example](DrugReAlign-Usage Example.mp4)](https://github.com/kkkayle/DrugReAlign/blob/master/DrugReAlign-Usage Example.mp4)
 
 # Experimental Data and Interpretation
 

@@ -43,7 +43,7 @@ class TemplateFiller:
     def process_files(self, pdb_id):
         
         self.fill_template(pdb_id)
-        print(f"Processed: {pdb_id}")
+        #print(f"Processed: {pdb_id}")
 
 # Example of how to use the class
 if __name__ == '__main__':

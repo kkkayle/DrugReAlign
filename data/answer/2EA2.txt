@@ -1,0 +1,57 @@
+### Detailed Analysis of the Receptor's Summary Information
+
+1. **PDB ID:** 2EA2
+2. **Title:** h-MetAP2 complexed with A773812
+3. **Classification:** HYDROLASE
+4. **Organism(s):** Homo sapiens
+5. **Expression System:** Escherichia coli
+
+MetAP2 stands for Methionine aminopeptidase 2, which is an enzyme that removes the N-terminal methionine from newly synthesized proteins. Human MetAP2 has been targeted for its role in angiogenesis and cancer, making it a protein of interest for drug targeting. The structure is expressed in Escherichia coli for experimental purposes.
+
+### Spatial Structure of the Pocket-Ligand Interaction
+
+The detailed spatial interaction between the ligand and protein pocket reveals important hydrophobic interactions and a hydrogen bond. These interactions are crucial for the binding affinity and specificity of the ligand to the receptor.
+
+**Hydrophobic Interactions:**
+- Significant hydrophobic interactions with residues like Leucine (LEU), Phenylalanine (PHE), Alanine (ALA), Tyrosine (TYR), and Isoleucine (ILE) in various positions. These residues are situated within close proximity (~3.5-4 Å) of the ligand, promoting a strong hydrophobic environment favorable for ligand binding.
+
+**Hydrogen Bond:**
+- A critical hydrogen bond is formed between Histidine (HIS) residue at position A and ligand F77, with a donor-acceptor distance of 3.61 Å and a donor angle of 156.85°. This bond enhances the specificity and stability of the ligand-receptor complex.
+
+### Approved Drugs on the Market That May Interact with h-MetAP2
+
+Based on the hydrophobic and hydrogen bond interactions, several approved drugs targeting similar protein structures can be identified. Here is a list of five such drugs:
+
+```json
+{
+  "drugs": [
+    {
+      "ranking": "1",
+      "name": "Bestatin",
+      "explanation": "Bestatin is a known inhibitor of aminopeptidases including MetAP2. It forms strong hydrophobic interactions and a hydrogen bond, similar to A773812."
+    },
+    {
+      "ranking": "2",
+      "name": "Fumagillin",
+      "explanation": "Fumagillin targets MetAP2 by forming covalent bonds, affecting angiogenesis, and is indicated for its potent inhibitory effects."
+    },
+    {
+      "ranking": "3",
+      "name": "TNP-470",
+      "explanation": "TNP-470 is a synthetic derivative of fumagillin that inhibits MetAP2, displaying strong hydrophobic interactions with similar residues as found in 2EA2."
+    },
+    {
+      "ranking": "4",
+      "name": "Beloranib",
+      "explanation": "Beloranib is an anti-obesity drug that inhibits MetAP2. Its hydrophobic and hydrogen bonding properties align well with the binding pocket characteristics."
+    },
+    {
+      "ranking": "5",
+      "name": "PPI-2458",
+      "explanation": "PPI-2458 is an investigational drug that targets MetAP2, using a mechanism involving hydrophobic interaction and hydrogen bonding, potentially interacting with residues similar to those in 2EA2."
+    }
+  ]
+}
+```
+
+These drugs are chosen based on their mechanisms of action with MetAP2, the structural and hydrophobic similarities, and the interaction profile with residues crucial for ligand binding in MetAP2 complexes.
