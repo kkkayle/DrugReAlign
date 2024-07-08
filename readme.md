@@ -45,7 +45,7 @@ For a detailed walkthrough, please refer to the demonstration video:
 
 ## Download
 
-Experimental data is available for download from the provided link. Navigate to the [Experimental Data](https://github.com/kkkayle/DrugReAlign/tree/master/Experimental%20data) directory.
+Experimental data is available for download from the provided link. Navigate to the [Experimental Data](https://github.com/kkkayle/DrugReAlign/tree/master/Experimental) directory.
 
 ## Data Structure and Interpretation
 
