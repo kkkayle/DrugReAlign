@@ -35,7 +35,8 @@ class PDBConverter:
         subprocess.run([MGLTOOLS_PYTHON, 
                         "-c", f"import sys; sys.path.append('{os.path.dirname(PREPARE_RECEPTOR_SCRIPT)}'); exec(open('{PREPARE_RECEPTOR_SCRIPT}').read())", 
                         '-r', temp_pdb_path, 
-                        '-o', pdbqt_file])
+                        '-o', pdbqt_file,
+                        '-A', 'hydrogens'])
 
 
         os.remove(temp_pdb_path)
