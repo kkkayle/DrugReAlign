@@ -1,0 +1,19 @@
+mode: manual_upload  # Options: "manual_upload",  "blast_search"
+
+manual_upload:
+  pdb_file_path: "./temp/1A5Y.pdb"  # Path to the manually uploaded PDB file
+  use_summary: true  # Boolean value, whether to use summary information manually provided by the user
+  summary_info:  # Summary information provided by the user, required if `use_summary` is true
+    Title: "CRYSTAL STRUCTURE OF HUMAN NAD[P]H-QUINONE OXIDOREDUCTASE AT 1.7 A RESOLUTION"
+    Classification: "OXIDOREDUCTASE"
+    Organism(s): "Homo sapiens"
+    Expression System: "Escherichia coli"
+
+sequence_search:
+  query_sequence: "MEEPQSDPSVEPPLSQETFSDLWKLLPEN"  # Query sequence for BLAST search
+  use_summary: false  # Boolean value, whether to use summary information manually provided by the user
+  summary_info:  # Summary information provided by the user, required if `use_summary` is true
+    Title: "Model Title Here"
+    Classification: "Classification Here"
+    Organism(s): "Organism Here"
+    Expression System: "Expression System Here"

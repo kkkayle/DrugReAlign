@@ -1,0 +1,7 @@
+ranking,name,explanation,energy
+1,Midostaurin,"Midostaurin is a multi-kinase inhibitor, including targets related to signal transduction and DNA repair, which could interact with PARP1 through multiple hydrophobic regions.",-9.048
+2,Dasatinib,"Dasatinib is a tyrosine kinase inhibitor with multiple kinase targets that can penetrate hydrophobic pockets, potentially interacting with poly(ADP-ribose) polymerase due to similar structural inhibition profiles.",-7.244
+3,Gefitinib,Gefitinib is an EGFR inhibitor with hydrophobic and aromatic interactions. Its profile suggests potential interaction with the PARP1 hydrophobic pocket and pi-stacking interactions.,-7.944
+4,Sorafenib,"Sorafenib is a multi-kinase inhibitor with a broad spectrum of activity. Its activity spectrum includes inhibition through hydrophobic and hydrogen bonding interactions, aligning with the PARP1 binding site characteristics.",-7.204
+5,Imatinib,"Imatinib targets multiple tyrosine kinases through both hydrophobic and hydrogen-bond interactions, potentially extending its activity to PARP1 due to the shared interaction properties with its catalytic domain.",-6.865
+4,Methotrexate,"Methotrexate inhibits dihydrofolate reductase, disrupting DNA synthesis and repair mechanisms where PARP is involved.",-7.442

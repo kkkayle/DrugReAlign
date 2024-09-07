@@ -5,6 +5,7 @@ def extract_first_energy_from_file(file_path):
     with open(file_path, 'r') as file:
         for line in file:
             if "REMARK VINA RESULT:" in line:
+                # 假设能量值紧跟在'REMARK VINA RESULT:'之后
                 energy = float(line.split()[3])
                 return energy
     return None

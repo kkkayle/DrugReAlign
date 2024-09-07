@@ -1,5 +1,0 @@
-PDB ID: 2EA2
-Title: h-MetAP2 complexed with A773812
-Classification: Classification: HYDROLASE
-Organism(s): Organism(s): Homo sapiens
-Expression System: Expression System: Escherichia coli

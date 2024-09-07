@@ -1,4 +1,5 @@
 import os
+import argparse
 import requests
 import json
 import re
@@ -162,10 +163,10 @@ def main(pdb_id):
         filler.process_files(pdb_id)
         progress.update(task_ids['template'], advance=1, completed=1)
         log(f"Filled question template for {pdb_id}")
-
+        
         question = open(f'./data/question/{pdb_id}.txt').read().replace("\n", " ")
         completion = client.chat.completions.create(
-            model="gpt-4",
+            model="gpt-4o",
             messages=[
                 {"role": "user", "content": question}
             ]
@@ -175,7 +176,7 @@ def main(pdb_id):
             f.write(answer)
         progress.update(task_ids['chatgpt'], advance=1, completed=1)
         log(f"Interacted with ChatGPT for {pdb_id}")
-
+        
         # Process the generated answer file
         answer_file_path = f'./data/answer/{pdb_id}.txt'
         is_correct, result = process_answer_file(answer_file_path)
@@ -237,11 +238,18 @@ def run_thread(pdb_id):
 
 if __name__ == "__main__":
     # Configure OpenAI API client
-    client = OpenAI(api_key="")
+    client = OpenAI(api_key="sk-iZeWktfCGbhSGjcZA7E0004420714b82B09e6cB623941a11",base_url="https://ai-yyds.com/v1")
+    parser = argparse.ArgumentParser(description="Run DrugReAlign with PDB ID")
+    parser.add_argument('--pdb_id', help="Provide the PDB ID to process")
 
-    # Prompt user to input the PDB ID
-    pdb_id = input("Please enter the PDB ID: ")
+    args = parser.parse_args()
 
+    # Check if PDB ID is provided via command-line argument, otherwise use input()
+    if args.pdb_id:
+        pdb_id = args.pdb_id
+    else:
+        # Prompt user to input the PDB ID if not provided via command line
+        # pdb_id = input("Please enter the PDB ID: ")
+        pass
     # Execute the main function
-    run_thread(pdb_id)
-    
+    run_thread('1C8K')

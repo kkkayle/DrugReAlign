@@ -3,7 +3,7 @@ You will receive a summary of the protein receptor as well as the spatial coordi
 """Please follow the steps below""":
 1.Provide a detailed analysis of the receptor's summary information, including its PDB ID, title, classification, and organism information.
 2.Please provide more details and explanations regarding the spatial structure of the pocket-ligand interaction.
-3.Based on your analysis, please list 5 approved drugs on the market that may interact with this receptor and provide the output in the following JSON format.
+3.Based on your analysis, please list 5 approved drugs on the market that may interact with this receptor and provide the output in the following JSON format.("""Please predict drugs that interact with this target that are not currently included in the literature""")
 <Output format>
 {"drugs": [
     {
@@ -13,7 +13,7 @@ You will receive a summary of the protein receptor as well as the spatial coordi
     },
     ... other drugs
   ]
-}
+}D
 </Output format>
 <Receptor information>
 Summary:
@@ -22,3 +22,4 @@ Sequence:
 __fill seq info__
 interaction information:
 __fill pdb info__
+</Receptor information>

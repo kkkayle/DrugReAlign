@@ -63,3 +63,20 @@ class CompoundConverter:
         if not os.path.exists(output_path):
             sign=self.smiles_to_3D(smiles, output_path)
         return sign
+
+    def pdb_to_pdbqt(self, pdb_path):
+        try:
+            file_name = os.path.basename(pdb_path)
+            base_name = os.path.splitext(file_name)[0]
+            output_path = os.path.join(self.output_dir, f"{base_name}.pdbqt")
+            ob_conversion = pybel.ob.OBConversion()
+            ob_conversion.SetInAndOutFormats("pdb", "pdbqt")
+            ob_mol = next(pybel.readfile("pdb", pdb_path))
+            ob_mol.addh()
+            ob_mol.make3D(forcefield="mmff94", steps=50)
+            ob_conversion.WriteFile(ob_mol.OBMol, output_path)
+            print(f"Converted {pdb_path} to {output_path}")
+            return output_path
+        except Exception as e:
+            logging.error(f"Error converting PDB to PDBQT: {e}")
+            return False
