@@ -238,7 +238,7 @@ def run_thread(pdb_id):
 
 if __name__ == "__main__":
     # Configure OpenAI API client
-    client = OpenAI(api_key="sk-iZeWktfCGbhSGjcZA7E0004420714b82B09e6cB623941a11",base_url="https://ai-yyds.com/v1")
+    client = OpenAI(api_key="",base_url="")
     parser = argparse.ArgumentParser(description="Run DrugReAlign with PDB ID")
     parser.add_argument('--pdb_id', help="Provide the PDB ID to process")
 
